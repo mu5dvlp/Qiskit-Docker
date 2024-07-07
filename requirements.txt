@@ -1,0 +1,12 @@
+# Qiskit導入
+qiskit
+qiskit_aer
+qiskit_optimization
+
+# 回路図などの画像生成用
+matplotlib
+pylatexenc
+seaborn
+
+# Jupyter Notebook
+notebook
