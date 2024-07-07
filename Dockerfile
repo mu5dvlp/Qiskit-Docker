@@ -12,8 +12,10 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# スクリプトをコピー
-COPY main.ipynb /app/
+# ファイルをコピー
+COPY main.ipynb \
+    requirements.txt \
+    /app/
 
 # //ーーーーーーーーーーーーーーーーーーーーー
 # pipをアップグレード
